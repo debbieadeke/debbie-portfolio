@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* smooth fonts + base tweaks */
+:root {
+  color-scheme: dark;
+}
+
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* brand helpers */
+.btn {
+  @apply inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold transition;
+}
+
+.btn-primary {
+  @apply bg-pink-500 hover:bg-pink-400 text-neutral-900 shadow-lg shadow-pink-900/30;
+}
+
+.btn-outline {
+  @apply border border-pink-400/40 hover:border-pink-300 text-pink-300 hover:text-pink-200 rounded-xl px-5 py-3;
+}
+
+.card {
+  @apply rounded-2xl border border-white/5 bg-neutral-900/60 backdrop-blur shadow-lg;
+}
+
+/* section spacing */
+.section {
+  @apply py-20 md:py-28;
+}
+
+/* gradient text utility */
+.gradient-text {
+  @apply bg-gradient-to-r from-pink-400 via-fuchsia-400 to-pink-400 bg-clip-text text-transparent;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  /* background-color: white; */
+}
+body {
+  padding-top: 2px; /* equal to header height to prevent content hiding */
+}
+
+
