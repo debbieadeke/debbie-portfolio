@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
-
 import debbieprofile from "../assets/images/debbie-profile.jpg";
 
 export default function Hero() {
@@ -29,9 +28,10 @@ export default function Hero() {
               </h1>
               <p className="mt-4 text-neutral-300">
                 I design and build clean, accessible interfaces and contribute
-                 to full-stack systems using Laravel. Experienced with real-world projects, 
-                 Docker-based workflows, and modern UI practices. Currently expanding my 
-                 skills in React and Python for data-driven applications.
+                to full-stack systems using Laravel. Experienced with real-world
+                projects, Docker-based workflows, and modern UI practices.
+                Currently expanding my skills in React and Python for
+                data-driven applications.
               </p>
 
               <div className="mt-6 flex flex-wrap items-center gap-3">
@@ -48,6 +48,7 @@ export default function Hero() {
             </div>
 
             {/* Right Column - Photo + Card */}
+            {/* Right Column - Photo + Card */}
             <div className="order-first md:order-last flex flex-col items-center gap-6">
               {/* Professional Photo */}
               <img
@@ -56,20 +57,24 @@ export default function Hero() {
                 className="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-pink-400/60"
               />
 
-              {/* playful “baker” nod */}
+              {/* Developer & Baker Card */}
               <div className="card p-6 w-full">
-                <h3 className="text-lg font-semibold">Tech & Taste</h3>
+                <h3 className="text-lg font-semibold">Developer & Baker</h3>
                 <p className="mt-2 text-sm text-neutral-300">
-                  I’m a developer <span className="text-pink-300">and</span> a
-                  self-taught baker — I love building beautiful UIs as much as
-                  decorating cakes and pastries. Details matter. 🍰
+                  I’m a developer and self-taught baker. I enjoy creating clean,
+                  accessible UIs as much as I enjoy decorating cakes and
+                  pastries — details matter in everything I build. 🍰
                 </p>
                 <div className="mt-4 grid grid-cols-3 gap-2 text-center text-xs text-neutral-300">
-                  <div className="rounded-lg bg-neutral-800/70 p-3">React</div>
-                  <div className="rounded-lg bg-neutral-800/70 p-3">
-                    Tailwind
+                  <div className="rounded-lg bg-neutral-800/70 p-3 hover:bg-pink-500/40 transition">
+                    UI/UX
                   </div>
-                  <div className="rounded-lg bg-neutral-800/70 p-3">Figma</div>
+                  <div className="rounded-lg bg-neutral-800/70 p-3 hover:bg-pink-500/40 transition">
+                    Docker
+                  </div>
+                  <div className="rounded-lg bg-neutral-800/70 p-3 hover:bg-pink-500/40 transition">
+                    Laravel
+                  </div>
                 </div>
               </div>
             </div>

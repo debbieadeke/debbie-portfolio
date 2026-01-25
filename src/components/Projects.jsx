@@ -50,7 +50,7 @@ const PROJECTS = [
     title: "The Lash & Brow Studio",
     desc: "Fully designed and developed a live website with appointment booking and payment integration.",
     link: "https://thelashandbrow.beauty",
-    tags: ["WordPress", "UI/UX", "Payment Integration"],
+    tags: ["HTML", "CSS", "JavaScript", "WordPress", "UI/UX", "Payment Integration"],
     images: [lashHome, lashHome2, lashAppointment],
   },
   {
@@ -78,7 +78,7 @@ const PROJECTS = [
     title: "Ongoing Professional Laravel Project",
     desc: "Currently developing a full system for a company using Laravel and MySQL. Confidential project, not publicly showcaseable.",
     link: "#",
-    tags: ["Laravel", "MySQL", "UX", "UI Integration"],
+    tags: ["Laravel", "MySQL", "UX", "UI Integration", "Docker"],
     images: [blue],
   },
 ];
