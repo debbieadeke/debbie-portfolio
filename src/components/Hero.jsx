@@ -2,6 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
+
+import debbieprofile from "../assets/images/debbie-profile.jpg";
+
 export default function Hero() {
   return (
     <section id="home" className="section">
@@ -48,7 +51,7 @@ export default function Hero() {
             <div className="order-first md:order-last flex flex-col items-center gap-6">
               {/* Professional Photo */}
               <img
-                src="/images/debbie-profile.jpg"
+                src={debbieprofile}
                 alt="Debbie Adeke Okaka"
                 className="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-pink-400/60"
               />
