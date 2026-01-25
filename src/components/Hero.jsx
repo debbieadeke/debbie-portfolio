@@ -19,16 +19,16 @@ export default function Hero() {
             {/* Left Column - Intro */}
             <div>
               <p className="text-sm uppercase tracking-wider text-pink-300/80">
-                Front-End Developer • UI/UX
+                Front-End Developer • UI/UX • Laravel-Based Systems
               </p>
               <h1 className="mt-3 text-4xl font-extrabold tracking-tight md:text-6xl">
                 <span className="gradient-text">Debbie Adeke Okaka</span>
               </h1>
               <p className="mt-4 text-neutral-300">
-                I design and code delightful, accessible interfaces. Passionate
-                about clean UX, modern React, and crafting experiences that
-                balance <strong>bold</strong> visuals with{" "}
-                <strong>professional</strong> clarity.
+                I design and build clean, accessible interfaces and contribute
+                 to full-stack systems using Laravel. Experienced with real-world projects, 
+                 Docker-based workflows, and modern UI practices. Currently expanding my 
+                 skills in React and Python for data-driven applications.
               </p>
 
               <div className="mt-6 flex flex-wrap items-center gap-3">
