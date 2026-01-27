@@ -21,7 +21,7 @@ export default function Hero() {
             {/* Left Column - Intro */}
             <div>
               <p className="text-sm uppercase tracking-wider text-pink-300/80">
-                Front-End Developer • UI/UX • Laravel-Based Systems
+                Full-Stack Web Developer • UI/UX • Laravel-Based Systems
               </p>
               <h1 className="mt-3 text-4xl font-extrabold tracking-tight md:text-6xl">
                 <span className="gradient-text">Debbie Adeke Okaka</span>
