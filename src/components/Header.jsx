@@ -59,7 +59,7 @@ export default function Header() {
             </a>
           ))}
           <div className="ml-3 flex items-center gap-2">
-            <a href="mailto:okakadebbie15@gmail.com" className="p-2 rounded-lg hover:bg-white/5" aria-label="Email">
+            <a href="mailto:debbieokakaa@gmail.com" className="p-2 rounded-lg hover:bg-white/5" aria-label="Email">
               <Mail size={18} />
             </a>
             <a href="https://github.com/debbieadeke" target="_blank" className="p-2 rounded-lg hover:bg-white/5" aria-label="GitHub">
@@ -104,7 +104,7 @@ export default function Header() {
             </a>
           ))}
           <div className="flex items-center gap-3 pt-2">
-            <a href="mailto:okakadebbie15@gmail.com" className="btn btn-outline">Email</a>
+            <a href="mailto:debbieokakaa@gmail.com" className="btn btn-outline">Email</a>
             <a href="https://github.com/debbieadeke" target="_blank" className="btn btn-outline">GitHub</a>
             <a href="https://linkedin.com/in/debbieokaka" target="_blank" className="btn btn-outline">LinkedIn</a>
           </div>

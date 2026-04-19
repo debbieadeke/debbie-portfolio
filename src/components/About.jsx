@@ -23,9 +23,9 @@ I use Docker for local development and enjoy turning ideas into responsive, acce
             <div className="text-sm text-neutral-400">Location</div>
             <div className="mt-1 font-semibold">Nairobi, Kenya</div>
           </div>
-          <a className="card p-5 hover:border-pink-500/40 transition" href="mailto:okakadebbie15@gmail.com">
+          <a className="card p-5 hover:border-pink-500/40 transition" href="mailto:debbieokakaa@gmail.com">
             <div className="text-sm text-neutral-400">Email</div>
-            <div className="mt-1 font-semibold">okakadebbie15@gmail.com</div>
+            <div className="mt-1 font-semibold">debbieokakaa@gmail.com</div>
           </a>
           <a className="card p-5 hover:border-pink-500/40 transition" href="https://github.com/debbieadeke" target="_blank">
             <div className="text-sm text-neutral-400">GitHub</div>

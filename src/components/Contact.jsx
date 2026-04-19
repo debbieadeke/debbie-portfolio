@@ -14,8 +14,8 @@ export default function Contact() {
         </p>
 
         <div className="mx-auto mt-8 grid max-w-xl grid-cols-1 gap-3 sm:grid-cols-2">
-          <a href="mailto:okakadebbie15@gmail.com" className="card flex items-center justify-center gap-2 p-4 hover:border-pink-500/40">
-            <Mail size={18} className="text-pink-300" /> okakadebbie15@gmail.com
+          <a href="mailto:debbieokakaa@gmail.com" className="card flex items-center justify-center gap-2 p-4 hover:border-pink-500/40">
+            <Mail size={18} className="text-pink-300" /> debbieokakaa@gmail.com
           </a>
           <a href="tel:+254705506380" className="card flex items-center justify-center gap-2 p-4 hover:border-pink-500/40">
             <Phone size={18} className="text-pink-300" /> +254 0705 506 380

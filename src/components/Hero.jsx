@@ -39,7 +39,7 @@ export default function Hero() {
                   View Projects <ArrowRight size={18} />
                 </a>
                 <a
-                  href="mailto:okakadebbie15@gmail.com"
+                  href="mailto:debbieokakaa@gmail.com"
                   className="btn btn-outline"
                 >
                   Contact Me
@@ -51,10 +51,16 @@ export default function Hero() {
             {/* Right Column - Photo + Card */}
             <div className="order-first md:order-last flex flex-col items-center gap-6">
               {/* Professional Photo */}
-              <img
+              {/* <img
                 src={debbieprofile}
                 alt="Debbie Adeke Okaka"
                 className="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-pink-400/60"
+              /> */}
+
+              <img
+                src={debbieprofile}
+                alt="Debbie Adeke Okaka"
+                className="w-48 h-48 rounded-full object-cover object-[center_30%] shadow-lg border-4 border-pink-400/60"
               />
 
               {/* Developer & Baker Card */}
