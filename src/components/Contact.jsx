@@ -17,9 +17,9 @@ export default function Contact() {
           <a href="mailto:debbieokakaa@gmail.com" className="card flex items-center justify-center gap-2 p-4 hover:border-pink-500/40">
             <Mail size={18} className="text-pink-300" /> debbieokakaa@gmail.com
           </a>
-          <a href="tel:+254705506380" className="card flex items-center justify-center gap-2 p-4 hover:border-pink-500/40">
+          {/* <a href="tel:+254705506380" className="card flex items-center justify-center gap-2 p-4 hover:border-pink-500/40">
             <Phone size={18} className="text-pink-300" /> +254 0705 506 380
-          </a>
+          </a> */}
           <a href="https://github.com/debbieadeke" target="_blank" className="card flex items-center justify-center gap-2 p-4 hover:border-pink-500/40">
             <Github size={18} className="text-pink-300" /> github.com/debbieadeke
           </a>
