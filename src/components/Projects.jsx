@@ -18,6 +18,10 @@ import pharmacy4 from "../assets/images/Picture4.jpg";
 import pharmacy5 from "../assets/images/Picture5.jpg";
 import pharmacy6 from "../assets/images/Picture6.jpg";
 
+import carecrewheader3 from "../assets/images/carecrew-header3.png";
+import carecrewfooter from "../assets/images/carecrew-footer.png";
+import carecrewheader2 from "../assets/images/carecrew-header2.png";
+
 // Radio Station Website
 import radioIndex from "../assets/images/index.png";
 import radioShows from "../assets/images/shows.png";
@@ -42,6 +46,7 @@ import law26 from "../assets/images/26.png";
 // Ongoing Laravel Project
 import blue from "../assets/images/blue.jpg";
 
+
 // ----------------------
 // PROJECTS ARRAY
 // ----------------------
@@ -50,8 +55,15 @@ const PROJECTS = [
     title: "The Lash & Brow Studio",
     desc: "Fully designed and developed a live website with appointment booking and payment integration.",
     link: "https://thelashandbrow.beauty",
-    tags: ["HTML", "CSS", "JavaScript", "WordPress", "UI/UX", "Payment Integration"],
+    tags: ["HTML", "CSS", "JavaScript", "WordPress", "UI/UX", "Payment Integration","Pesapal"],
     images: [lashHome, lashHome2, lashAppointment],
+  },
+  {
+    title: "Carecrew Consulting Website",
+    desc: "Fully designed and developed a live website for a consultancy firm.",
+    link: "https://carecrew.consulting",
+    tags: ["HTML", "CSS", "JavaScript", "Formspree"],
+    images: [carecrewheader3,carecrewheader2, carecrewfooter],
   },
   {
     title: "Pharmacy Management System (Final Year Project)",
